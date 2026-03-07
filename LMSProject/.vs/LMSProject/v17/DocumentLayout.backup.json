@@ -1,0 +1,398 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\services\\igamificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:services\\igamificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\services\\gamificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:services\\gamificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\profileviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\profileviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\quizviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\quizviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\forumviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\forumviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\gamificationviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\gamificationviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\dashboardviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\dashboardviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\courseviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\courseviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\analyticsviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\analyticsviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\viewmodels\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\viewmodels\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\services\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:services\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\lessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\lessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\gamificationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\gamificationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|c:\\users\\asus\\onedrive\\masa\u00FCst\u00FC\\githublmsproject\\lmsproject\\models\\notificationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB14EBA-6C57-4F98-804B-776B30750651}|LMSProject.csproj|solutionrelative:models\\notificationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GamificationService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\GamificationService.cs",
+              "RelativeDocumentMoniker": "Services\\GamificationService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\GamificationService.cs",
+              "RelativeToolTip": "Services\\GamificationService.cs",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAywGIBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:49:55.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnalyticsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\AnalyticsService.cs",
+              "RelativeDocumentMoniker": "Services\\AnalyticsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\AnalyticsService.cs",
+              "RelativeToolTip": "Services\\AnalyticsService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:49:50.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReviewViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\ReviewViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ReviewViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\ReviewViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ReviewViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:48:01.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAswGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:09:17.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\QuizViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\QuizViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\QuizViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\QuizViewModels.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:47:59.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\ProfileViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ProfileViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\ProfileViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ProfileViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:47:58.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAvwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:09:41.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGamificationService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\IGamificationService.cs",
+              "RelativeDocumentMoniker": "Services\\IGamificationService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\IGamificationService.cs",
+              "RelativeToolTip": "Services\\IGamificationService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAywBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:49:59.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAYwF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:56:25.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForumViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\ForumViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ForumViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\ForumViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ForumViewModels.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAA1wEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:47:54.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\DashboardViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\DashboardViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\DashboardViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\DashboardViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:47:52.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\CourseViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\CourseViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\CourseViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\CourseViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:47:51.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\AccountViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\AccountViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:47:47.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GamificationViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\GamificationViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\GamificationViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\GamificationViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\GamificationViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:47:19.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AnalyticsViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\AnalyticsViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\AnalyticsViewModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\ViewModels\\AnalyticsViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\AnalyticsViewModels.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAYwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:46:58.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAnalyticsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\IAnalyticsService.cs",
+              "RelativeDocumentMoniker": "Services\\IAnalyticsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Services\\IAnalyticsService.cs",
+              "RelativeToolTip": "Services\\IAnalyticsService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:45:06.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwE8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:36:36.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T13:36:23.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Certificate.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\Certificate.cs",
+              "RelativeDocumentMoniker": "Models\\Certificate.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\Certificate.cs",
+              "RelativeToolTip": "Models\\Certificate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:08:53.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LessonProgress.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\LessonProgress.cs",
+              "RelativeDocumentMoniker": "Models\\LessonProgress.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\LessonProgress.cs",
+              "RelativeToolTip": "Models\\LessonProgress.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:08:40.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GamificationModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\GamificationModels.cs",
+              "RelativeDocumentMoniker": "Models\\GamificationModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\GamificationModels.cs",
+              "RelativeToolTip": "Models\\GamificationModels.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAYwJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:08:25.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotificationModels.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\NotificationModels.cs",
+              "RelativeDocumentMoniker": "Models\\NotificationModels.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Masa\u00FCst\u00FC\\GitHubLMSProject\\LMSProject\\Models\\NotificationModels.cs",
+              "RelativeToolTip": "Models\\NotificationModels.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAA1wE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:08:09.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
