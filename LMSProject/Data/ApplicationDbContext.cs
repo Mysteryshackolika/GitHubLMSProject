@@ -43,8 +43,13 @@ namespace LMSProject.Data
         {
             base.OnModelCreating(builder);
 
+            // ========== BÜTUN FOREIGN KEY LƏR ÜÇÜN RESTRICT ==========
+            foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }
+
             // ========== DECIMAL PRECISION KONFİQURASİYASI ==========
-            // Bütün decimal property-lər üçün precision və scale təyin et
             foreach (var entityType in builder.Model.GetEntityTypes())
             {
                 foreach (var property in entityType.GetProperties())
@@ -61,20 +66,28 @@ namespace LMSProject.Data
             builder.Entity<Enrollment>()
                 .HasOne(e => e.Student)
                 .WithMany(u => u.Enrollments)
-                .HasForeignKey(e => e.StudentId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .HasForeignKey(e => e.StudentId);
 
             builder.Entity<Enrollment>()
                 .HasOne(e => e.Course)
                 .WithMany(c => c.Enrollments)
-                .HasForeignKey(e => e.CourseId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .HasForeignKey(e => e.CourseId);
 
             builder.Entity<Course>()
                 .HasOne(c => c.Teacher)
                 .WithMany(u => u.TeacherCourses)
-                .HasForeignKey(c => c.TeacherId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .HasForeignKey(c => c.TeacherId);
+
+            // ========== REVIEW HELPful ƏLAQƏSİ ==========
+            builder.Entity<ReviewHelpful>()
+                .HasOne(rh => rh.Review)
+                .WithMany(r => r.HelpfulVotes)
+                .HasForeignKey(rh => rh.ReviewId);
+
+            builder.Entity<ReviewHelpful>()
+                .HasOne(rh => rh.User)
+                .WithMany()
+                .HasForeignKey(rh => rh.UserId);
 
             // ========== UNİKAL INDEKSLƏR ==========
             builder.Entity<Review>()
@@ -97,7 +110,7 @@ namespace LMSProject.Data
                 .HasIndex(lp => new { lp.StudentId, lp.LessonId })
                 .IsUnique();
 
-            // ========== QUIZ MODELLƏRİ ÜÇƏN PRECISION ==========
+            // ========== QUIZ MODELLƏRİ ÜÇÜN PRECISION ==========
             builder.Entity<QuizAttempt>()
                 .Property(q => q.PercentageScore)
                 .HasPrecision(5, 2);

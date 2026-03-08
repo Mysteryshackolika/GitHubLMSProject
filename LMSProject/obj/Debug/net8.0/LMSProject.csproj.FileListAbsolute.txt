@@ -156,3 +156,4 @@ C:\Users\ASUS\OneDrive\Masaüstü\GitHubLMSProject\LMSProject\obj\Debug\net8.0\r
 C:\Users\ASUS\OneDrive\Masaüstü\GitHubLMSProject\LMSProject\obj\Debug\net8.0\LMSProject.pdb
 C:\Users\ASUS\OneDrive\Masaüstü\GitHubLMSProject\LMSProject\obj\Debug\net8.0\LMSProject.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Masaüstü\GitHubLMSProject\LMSProject\obj\Debug\net8.0\ref\LMSProject.dll
+C:\Users\ASUS\OneDrive\Masaüstü\GitHubLMSProject\LMSProject\obj\Debug\net8.0\LMSProject.sourcelink.json

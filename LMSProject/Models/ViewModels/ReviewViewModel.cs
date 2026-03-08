@@ -1,4 +1,7 @@
-﻿namespace LMSProject.Models.ViewModels
+﻿using System;
+using System.Collections.Generic;
+
+namespace LMSProject.Models.ViewModels
 {
     public class ReviewViewModel
     {
