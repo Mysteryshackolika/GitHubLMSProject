@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LMSProject.Data;
 using LMSProject.Models;
@@ -51,14 +52,19 @@ namespace LMSProject.Controllers
             }
 
             ViewBag.IsEnrolled = isEnrolled;
-
             return View(course);
         }
 
         [Authorize(Roles = "Admin,Teacher")]
         public IActionResult Create()
         {
-            ViewBag.Categories = _context.Categories.ToList();
+            ViewBag.CategoryList = _context.Categories
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),
+                    Text = c.Name
+                })
+                .ToList();
             return View();
         }
 
@@ -67,6 +73,9 @@ namespace LMSProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Course course)
         {
+            ModelState.Remove("Teacher");
+            ModelState.Remove("Category");
+
             if (ModelState.IsValid)
             {
                 var user = await _userManager.GetUserAsync(User);
@@ -79,7 +88,15 @@ namespace LMSProject.Controllers
                 TempData["Success"] = "Kurs uğurla yaradıldı!";
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.Categories = _context.Categories.ToList();
+
+            ViewBag.CategoryList = _context.Categories
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),
+                    Text = c.Name
+                })
+                .ToList();
+
             return View(course);
         }
 
@@ -113,44 +130,6 @@ namespace LMSProject.Controllers
             }
 
             return RedirectToAction(nameof(Details), new { id });
-        }
-
-        public async Task<IActionResult> Search(CourseSearchViewModel model)
-        {
-            var query = _context.Courses
-                .Include(c => c.Teacher)
-                .Include(c => c.Category)
-                .AsQueryable();
-
-            if (!string.IsNullOrWhiteSpace(model.SearchTerm))
-            {
-                query = query.Where(c =>
-                    c.Title.Contains(model.SearchTerm) ||
-                    c.Description.Contains(model.SearchTerm));
-            }
-
-            if (model.CategoryId.HasValue && model.CategoryId.Value > 0)
-            {
-                query = query.Where(c => c.CategoryId == model.CategoryId);
-            }
-
-            var totalItems = await query.CountAsync();
-            model.TotalPages = (int)Math.Ceiling(totalItems / (double)model.PageSize);
-
-            model.Courses = await query
-                .OrderByDescending(c => c.CreatedAt)
-                .Skip((model.PageNumber - 1) * model.PageSize)
-                .Take(model.PageSize)
-                .ToListAsync();
-
-            model.Categories = await _context.Categories.ToListAsync();
-
-            return View(model);
-        }
-
-        private bool CourseExists(int id)
-        {
-            return _context.Courses.Any(e => e.Id == id);
         }
     }
 }

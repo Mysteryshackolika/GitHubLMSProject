@@ -1,5 +1,44 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model AdminDashboardViewModel
+
 @{
+    ViewData["Title"] = "Admin Panel";
 }
+
+<div class="container-fluid py-4">
+    <h1>Admin Dashboard</h1>
+
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Ümumi İstifadəçi</h5>
+                    <h2>@Model.TotalUsers</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Ümumi Kurslar</h5>
+                    <h2>@Model.TotalCourses</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Qeydiyyatlar</h5>
+                    <h2>@Model.TotalEnrollments</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Dərslər</h5>
+                    <h2>@Model.TotalLessons</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,36 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model TeacherDashboardViewModel
+
 @{
+    ViewData["Title"] = "Müəllim Paneli";
 }
+
+<div class="container-fluid py-4">
+    <h1>Müəllim Dashboard</h1>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Kurslarım</h5>
+                    <h2>@Model.MyCourses.Count</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Ümumi Tələbə</h5>
+                    <h2>@Model.TotalStudents</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Dərslər</h5>
+                    <h2>@Model.TotalLessons</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

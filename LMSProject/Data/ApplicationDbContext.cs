@@ -49,19 +49,6 @@ namespace LMSProject.Data
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
             }
 
-            // ========== DECIMAL PRECISION KONFİQURASİYASI ==========
-            foreach (var entityType in builder.Model.GetEntityTypes())
-            {
-                foreach (var property in entityType.GetProperties())
-                {
-                    if (property.ClrType == typeof(decimal) || property.ClrType == typeof(decimal?))
-                    {
-                        property.SetPrecision(18);
-                        property.SetScale(2);
-                    }
-                }
-            }
-
             // ========== ƏLAQƏLƏR ==========
             builder.Entity<Enrollment>()
                 .HasOne(e => e.Student)
@@ -70,7 +57,7 @@ namespace LMSProject.Data
 
             builder.Entity<Enrollment>()
                 .HasOne(e => e.Course)
-                .WithMany(c => c.Enrollments)
+                .WithMany(c => c.Enrollments)  // Enrollments property-si Course-da var
                 .HasForeignKey(e => e.CourseId);
 
             builder.Entity<Course>()
@@ -78,16 +65,10 @@ namespace LMSProject.Data
                 .WithMany(u => u.TeacherCourses)
                 .HasForeignKey(c => c.TeacherId);
 
-            // ========== REVIEW HELPful ƏLAQƏSİ ==========
-            builder.Entity<ReviewHelpful>()
-                .HasOne(rh => rh.Review)
-                .WithMany(r => r.HelpfulVotes)
-                .HasForeignKey(rh => rh.ReviewId);
-
-            builder.Entity<ReviewHelpful>()
-                .HasOne(rh => rh.User)
-                .WithMany()
-                .HasForeignKey(rh => rh.UserId);
+            builder.Entity<Lesson>()
+                .HasOne(l => l.Course)
+                .WithMany(c => c.Lessons)  // Lessons property-si Course-da var
+                .HasForeignKey(l => l.CourseId);
 
             // ========== UNİKAL INDEKSLƏR ==========
             builder.Entity<Review>()
@@ -109,11 +90,6 @@ namespace LMSProject.Data
             builder.Entity<LessonProgress>()
                 .HasIndex(lp => new { lp.StudentId, lp.LessonId })
                 .IsUnique();
-
-            // ========== QUIZ MODELLƏRİ ÜÇÜN PRECISION ==========
-            builder.Entity<QuizAttempt>()
-                .Property(q => q.PercentageScore)
-                .HasPrecision(5, 2);
         }
     }
 }
